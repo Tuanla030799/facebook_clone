@@ -1,0 +1,107 @@
+:root {
+    --ratio: 1;
+    --fs-xs: calc(0.75rem / var(--ratio));
+    --fs-s: calc(0.875rem / var(--ratio));
+    --fs-base: calc(1rem / var(--ratio));
+    --fs-l: calc(1.125rem / var(--ratio));
+    --fs-xl: calc(1.25rem / var(--ratio));
+    --fs-2xs: calc(1.5rem / var(--ratio));
+    --fs-3xs: calc(1.6875rem / var(--ratio));
+    --fs-4xs: calc(2.25rem / var(--ratio));
+    --fs-5xs: calc(2.5rem / var(--ratio));
+    --fs-6xs: calc(3rem / var(--ratio));
+    
+    --bg-base-color: #f0f2f5;
+    --bg-gray-color: #e4e6eb;
+    --bg-green-color: #00a400;
+
+
+    --base-color: #050505;
+    --status-color: #F5C33B;
+    --gray-color: #65676b;
+    --black-color: #111314;
+    --blue-1color: #216fdb;
+    --blue-2color: #1b74e4;
+    --white-color: #ffffff;
+    --white-2color: #fafafa;
+    --white-3color: #f0f1f2;
+    --orange-color: #ff695c;
+    --red-color: #FA383E;
+    --ff-base: 'Roboto', sans-serif; 
+    
+    
+    --lh-xs: 0.9375rem;
+    --lh-2xs: 1.1625;
+    --lh-s: 1.375rem;
+    --lh-md: 1.5625rem;
+    --lh-2md: 1.5rem;
+    --lh-l: 1.625rem;
+    --lh-xl: 1.6875rem;
+    --lh-2xl: 1.75rem;
+    --lh-3xl: 1.8125rem;
+    --lh-4xl: 2.125rem;
+    --lh-5xl: 3.25rem;
+    --lh-base: 1.0rem;
+    --btn-bg: transparent;
+
+    --br-base: 10px;
+
+    --fw-thin: 300;
+    --fw-md: 400;
+    --fw-b: 500;
+    --fw-sb: 700;
+    --fw-size: var(--fw-md)
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: var(--fs-base);
+    line-height: var(--lh-base);
+    font-family: var(--ff-base);
+    font-weight: var(--fw-md);
+    box-sizing: border-box;
+    color: var(--base-color);
+}
+
+.text--gray {
+    font-size: var(--fs-s);
+    color: var(--gray-color);
+    fill: var(--gray-color);
+    font-weight: var(--fw-size);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--base-color);
+}
+
+ol,ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+    outline: 0;
+    padding: 0;
+    color: var(--base-color);
+}
+
+p {
+    color: var(--base-color);
+    font-size: var(--fs-s);
+    font-weight: 600;
+    line-height: var(--lh-s);
+}
+
+input.input-search {
+    border: none;
+    outline: none;
+    padding: 1px 8px 3px;
+    width: 196px;
+    line-height: var(--lh-2md);
+    background-color: var(--bg-base-color);
+    font-size: var(--fs-s);
+}
